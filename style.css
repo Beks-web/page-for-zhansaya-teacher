@@ -1,0 +1,373 @@
+@media screen and (max-width: 1900px) {
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  body {
+    background-image: url(wallhaven-zyj28v.jpg);
+    background-position: top;
+  }
+  .header {
+    background-image: url(i.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 3px 3px;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 1400px;
+    color: rgb(168, 0, 247);
+  }
+  .jkl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  td {
+    padding-left: 40px;
+    font-size: xx-large;
+    padding-bottom: 10px;
+  }
+  h1 {
+    padding: 100px 0 0 100px;
+    font-size: 60px;
+    font-family: kanit;
+  }
+
+  @keyframes KAZAKHSTAN {
+    0% {
+      color: rgb(245, 245, 245);
+    }
+    50% {
+      color: rgb(205, 86, 209);
+    }
+    100% {
+      color: rgb(209, 41, 195);
+    }
+  }
+  .multicolor {
+    animation: KAZAKHSTAN 5s linear infinite;
+  }
+  .main-page {
+    color: antiquewhite;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: fhwei;
+    animation-duration: 2s;
+    transition: transform 3s ease, opacity 1s ease-in;
+    display: grid;
+    max-width: 1900px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-column: 100px;
+    grid-row: 100px;
+    gap: 500px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    perspective: 1000px;
+  }
+  .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .back {
+    background: linear-gradient(135deg, #f00af8, #1b0f0e);
+    transform: rotateY(180deg);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+  td a {
+    text-decoration: none;
+    color: rgb(194, 0, 212);
+    box-shadow: 2px 3px 3px 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .look {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 56px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    text-transform: uppercase;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  p {
+    font-family: poppins;
+  }
+  .look h1 {
+    font-size: 100px;
+  }
+  .klk {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+    border: 10px solid;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(rgb(42, 1, 58), rgb(127, 17, 170));
+  }
+  .main {
+    font-size: 20px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .lll {
+    padding: 10px;
+    color: rgb(182, 181, 179);
+  }
+  .look a {
+    text-decoration: none;
+  }
+  .look a :hover {
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  img {
+    border-radius: 10px;
+  }
+  @keyframes fhwei {
+    from {
+      translate: 150vw 0;
+      scale: 150% 4;
+    }
+
+    to {
+      translate: 10 10;
+      scale: 100% 1;
+    }
+  }
+  .kok a {
+    text-decoration: none;
+    color: aqua;
+    background-color: #f00af83f;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    height: 350px;
+
+    gap: 5rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+  }
+  footer li:hover {
+    color: bisque;
+    transition: 1.2s;
+    transform: scale(1.1);
+  }
+  .coco {
+    background: none;
+    padding: 20px;
+    color: #f00af8;
+  }
+
+  .gogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.247);
+    border-radius: 10px;
+    margin: 150px 100px 150px 100px;
+  }
+  .lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .kok {
+    background-color: #1b0f0e5d;
+    padding: 100px;
+    border-radius: 10px;
+    color: #f00af8;
+  }
+
+  .kok h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 40px -20px;
+    padding-bottom: 30px;
+  }
+  .kolok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .kolok button {
+    background-color: #f00af834;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  .kolok :hover {
+    transform: scale(1.2);
+    color: aqua;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+  .jkl {
+    width: 420px;
+  }
+  .header {
+    box-shadow: none;
+    width: 400px;
+  }
+
+  td {
+    padding-left: 1px;
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+  }
+  table {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+
+  h1 {
+    padding: 100px 0 0 100px;
+    font-size: 20px;
+    font-family: kanit;
+  }
+
+  @keyframes KAZAKHSTAN {
+    0% {
+      color: rgb(235, 225, 225);
+    }
+    50% {
+      color: rgb(205, 86, 209);
+    }
+    100% {
+      color: rgb(231, 16, 213);
+    }
+  }
+  .multicolor {
+    animation: KAZAKHSTAN 5s linear infinite;
+  }
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    animation: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .look {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  p {
+    font-family: poppins;
+  }
+  img {
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  footer {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px;
+    gap: 100px;
+    background: none;
+  }
+  .gogo {
+    background: none;
+  }
+  .back {
+    font-size: 30px;
+    width: 350px;
+  }
+  .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+  }
+  .card {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    perspective: 1000px;
+  }
+}
